@@ -1,0 +1,34 @@
+ul.sidebar .sidebar-main a,
+.sidebar-footer, 
+ul.sidebar .sidebar-list a:hover,
+#page-wrapper:not(.active) ul.sidebar .sidebar-title.separator {
+	/* Sidebar header and footer color */
+	background: #003451;
+	color:white;
+
+	
+}
+
+ul.sidebar .sidebar-list a{
+
+
+color:#bdc3c7;
+
+}
+
+ul.sidebar .sidebar-list a:hover{
+
+border-left:4px solid #95a5a6;
+color:white;
+
+}
+
+#sidebar-wrapper {
+	/* Sidebar background color */
+	background: #003451;
+}
+ul.sidebar .sidebar-title {
+	/* Sidebar title text colour */
+	color: #627cb7;
+}
+

@@ -1,0 +1,270 @@
+<?php $__env->startSection('content'); ?>
+	
+	<!-- Main Content -->
+
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-xs-12" >
+
+
+              <div class="col-lg-7">
+               <div class="widget">
+                <div class="widget-body" style="height:150px;">
+                  <div class="pull-left">
+                   <img src='/images/yo.jpg' width='75px' height="65px" class="img-rounded">
+                  </div>
+                  <div class="widget-content pull-left">
+                    <div class="title" id='titlePerfil' style='font-size:15px; margin-left:10px;'>
+                      <?=$user ?>
+                      <hr>
+                    </div>
+
+                      <!--  <div class="title" id='titlePerfil' style='font-size:18px;'>Carlos Enrique</div> -->
+                    <div class="title" id='titlePerfil' style='font-size:18px;  margin-left:10px;'>pais</div>
+                    <div class="comment" style=" margin-left:10px;'">ciudad</div>
+
+                  </div>
+                  <div class="widget-content pull-right">
+                    
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+               </div>
+              </div>
+
+
+              <div class="col-lg-5">
+                <div class="widget">
+                <div class="widget-body" style="height:150px;">
+                  
+                  <div class="widget-content pull-left">
+                    
+                    <div class="title" id='titlePerfil' style='font-size:15px; margin-left:5px;'>
+                     Nivel
+                    </div>
+                      <!--  <div class="title" id='titlePerfil' style='font-size:18px;'>Carlos Enrique</div> -->
+                    <div class="title" id='titlePerfil' style='font-size:18px;  margin-left:5px;'>Grand Master</div>
+                    <div class="comment" style=" margin-left:5px;'"></div>
+
+                  </div>
+                  <div class="widget-content pull-right">
+                    
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+               </div>
+
+              </div>
+
+
+            </div>
+         
+          </div>
+
+
+          <div class="row">
+
+          <div class="col-lg-5">
+          <div class="row">
+             <div class="col-lg-12">
+              <div class="widget">
+                <div class="widget-title" style='border-left:2px solid #1abc9c; background-color:white;'>
+                  <i class="fa fa-tasks"></i>Actividad Curso
+                  <a href="#" class="pull-right">Ver más</a>
+                </div>
+                <div class="widget-body medium no-padding" >
+                  <div class="table-responsive">
+                    <table class="table">
+                      <tbody>
+                        <tr><td>Matematicas Aplicadas</td><td>Hace dos días</td><td><span tooltip="Agregado" class="text-info"><i class="ion-plus-circled"></i></span></td></tr>
+                        <tr><td>Arquitectura Básica</td><td>Hace una semana</td><td><span tooltip="Finalizado" class="text-success"><i class="ion-checkmark-circled"></i></span></td></tr>
+                        <tr><td>Fisica Cuantica</td><td>Hace un mes</td><td><span tooltip="Descontinuado" class="text-warning"><i class="ion-alert-circled"></i></span></td></tr>
+                       
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+                    <div class="col-lg-12" data-ng-controller='allnew'>
+                 <div class="widget">
+                  <div class="widget-title" style=' border-left:2px solid #f39c12; background-color:white;'>
+                  <i class="fa fa-users"></i> Enlaces
+                  <input type="text" placeholder="Buscar Amigo" class="form-control input-sm pull-right" ng-model="searchFriend" />
+                  <div class="clearfix"></div>
+                </div>
+                <div class="widget-body medium no-padding">
+                  <div class="table-responsive">
+                    <table class="table">
+                      
+             
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+            <div class="row" >
+         
+            <div class="col-lg-12" ng-controller='allAvancesPerfil' style='height:450px;' >
+              <div class="widget">
+                <div class="widget-title" style='border-left:2px solid #3498db; background-color:white;' >
+                  <i class="ion-stats-bars"></i> Status 
+                  <input type="text" placeholder="Search" class="form-control input-sm pull-right" />
+                  <div class="clearfix"></div>
+                </div>
+                <div class=" widget-body medium no-padding" style='height:400px;'>
+                  <div id='stats_donut' class='col-lg-10' style='height:300px;'>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+               <div class="col-lg-12" style='height:450px;'>
+              <div class="widget">
+                <div class="widget-title" style='border-left:2px solid #c0392b; background-color:white;'>
+                  <i class="ion-arrow-graph-up-right"></i> Avances
+                  <a href="#" class="pull-right">Ver más</a>
+                </div>
+                <div class="widget-body medium no-padding" style='height:400px;'>
+
+                  <div id='contenedorAvencePersonal' class='col-lg-10' style='height:350px; padding-right:20px;;'>
+
+
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+          </div>
+
+          <div class="col-lg-7">
+            
+          <div class="row">
+             <div class="col-lg-12">
+              <div class="widget">
+                <div class="widget-title" style='border-left:2px solid #8e44ad;  background-color:white;'>
+                  <i class="fa ion-compose"></i> Crear Comentario
+                  <a href="" target="_blank" class="pull-right">Ver más</a>
+                </div>
+                <div class="widget-body" >
+                  <!-- Check out the Angular Directive inside bootstrap.js! -->
+                <!--   <loading></loading> -->
+                  <div class='post'>
+
+              
+                    <div class="row">
+                        <div class="col-lg-12">
+                        
+                         <textarea class='form-control' id="post_comment" style="border-color:transparent; overflow:hidden;resizr:auto; border-style:none;outline: 0; height:auto;" placeholder="Comentario.."></textarea>
+                                             
+                        </div>
+                    </div>
+                    <div class="row">
+                     <div class="col-lg-9">
+                     <button class="btn" style="background-color:#7f8c8d; ">
+                        <i class="glyphicon glyphicon-picture"  data-toggle="tooltip" title="Subir Imagen" style="color:#ecf0f1"></i>
+                       </button>
+                       <button class="btn" style="background-color:#7f8c8d; ">
+                         <i class="glyphicon glyphicon-facetime-video" data-toggle="tooltip" title="Subir Video" style="color:#ecf0f1"></i></button>
+
+                          <button class="btn" style="background-color:#7f8c8d; ">
+                         <i class="glyphicon glyphicon-upload" style="color:#ecf0f1; ;" data-toggle="tooltip" title="Subir acrhivo"></i>
+                         </button>
+
+                          <button class="btn" style="background-color:#7f8c8d; ">
+                         <i class="glyphicon glyphicon-cloud-upload" style="color:#ecf0f1" data-toggle="tooltip" title="Subir archivo desde mixtli"></i>
+
+                         </button>
+                        </div>
+                      <div class="col-lg-3" style="">
+                        <button class="btn btn-primary" id="btnComment" ng-click="postComment()">Comentar</button> 
+                        
+                      </div>
+                     
+
+                    </div>
+                   <!-- <div class='row'>
+                    <div class='comentario col-lg-6'>
+
+                    </div>
+                  </div> -->
+                   
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+            </div>
+
+
+              <div class="row">
+            <div class="col-lg-12">
+              <div class="widget">
+                <div class="widget-title" style='border-left:2px solid #8e44ad; background-color:white;'>
+                  <i class="fa fa-cog fa-spin"></i> Comentarios en Pizarra
+                  <a href="" target="_blank" class="pull-right">Ver más</a>
+                </div>
+                <div class="widget-body" style="height:300px;">
+                  <!-- Check out the Angular Directive inside bootstrap.js! -->
+                <!--   <loading></loading> -->
+                  <div class='post'>
+
+                    <div class='row'>
+                      <div class='col-lg-1'>
+                        <img src='/images/yo.jpg' width='50' height='50'>
+                      </div>
+                      <div class='col-lg-4'>
+                        <span style='margin-left:10px;'>Luis Manuel</span>
+                      </div>
+                    </div>
+                    <div class='row'>
+                    <div class='comentario col-lg-6'>
+
+                    </div>
+                  </div>
+                    <textarea class='form-control'></textarea>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+           
+          </div>
+
+          
+          </div>
+          <!-- -->
+
+
+
+          <!-- -->
+        
+
+          <!--- -->
+        
+
+        <!-- End Main Content -->
+
+      </div><!-- End Page Content -->
+    </div><!-- End Content Wrapper -->
+  </div><!-- End Page Wrapper -->
+  <script>
+
+
+  </script>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

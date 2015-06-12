@@ -1,0 +1,796 @@
+body
+{
+
+padding:0;
+margin:0;
+background-color: white;
+
+}
+
+.amigosPost{
+
+color:#3498db;
+
+
+}
+
+@font-face {
+    font-family: MyryadPro;
+    src: url('/fonts/MyriadPro-It.otf');
+}
+
+
+table.scroll {
+   /* 140px * 5 column + 16px scrollbar width */
+   width: 100%;
+
+    max-height: 400px;
+}
+
+table.scroll tbody,
+table.scroll thead tr { display: block; }
+
+table.scroll tbody {
+    max-height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+table.scroll tbody td,
+table.scroll thead th {
+width: 100%;
+
+
+}
+
+table.scroll tbody td
+{
+
+	width: 100%;
+	padding: 20px;
+
+}
+
+table.scroll thead th:first-child
+{
+
+	width: 50%;
+	
+
+}
+
+table.scroll thead th:nth-child(2)
+{
+
+	width: 20%;
+	
+
+}
+
+table.scroll tbody td:first-child
+{
+
+	width: 50%;
+	
+
+}
+
+table.scroll thead th:last-child {
+	width: 15px;
+
+}
+
+thead tr th { 
+
+ 
+    /*text-align: left;*/
+}
+
+
+
+tbody td:last-child, thead th:last-child {
+
+}
+
+
+.titles
+{
+
+	font-size: 16px;
+	color:#2980b9;
+
+}
+
+
+
+#contentPerfil
+{
+
+background-color: #ffffff;
+border: 1px solid #ffffff;
+
+}
+#imagenPerfil
+{
+
+
+}
+
+#subContenedorPerfil
+{
+
+
+padding: 0px;
+
+
+}
+
+
+#listaPerfilInformativa
+{
+
+
+margin-top:30px;
+list-style: none;
+padding:0px;
+cursor: pointer;
+
+}
+
+
+.menuPerfilInformativa
+{
+
+
+	font-size:1.2em;
+    border-bottom:1.6px solid #3d3d3d;
+    cursor: pointer;
+}
+
+#puntosPerfil
+{
+
+
+background-color: #c6c6c6;
+color:white;
+border-radius:5px;
+
+
+}
+
+#btnEditarPerfil
+{
+
+margin-top:0px;
+
+}
+
+#informacionPersonal
+{
+
+margin-top:-20px;
+
+
+}
+
+#contenedorBotoneraTipoCurso
+{
+
+border:1px solid #00B98F;
+border-radius:10px;
+height: 30px;
+padding: 0px;
+
+
+}
+
+.tipoCurso
+{
+
+text-align: center;
+cursor: pointer;
+
+}
+
+
+.primero
+{
+color:white;
+text-align: center;
+background-color:#00B98F;
+border-radius:10px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+height: 28px;
+cursor: pointer;
+
+}
+
+.evenen
+{
+color:white;
+text-align: center;
+background-color:#00B98F;
+
+height: 28px;
+cursor: pointer;
+
+}
+
+.ultimo
+{
+color:white;
+text-align: center;
+background-color:#00B98F;
+border-radius:10px;
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+height: 28px;
+cursor: pointer;
+
+}
+
+
+#tituloAmigos
+{
+
+cursor: pointer;
+
+}
+
+
+.formularioConfiguracion
+{
+
+ width:450px;
+
+
+}
+
+.formularioMargen
+{
+
+margin-bottom:10px;
+
+}
+
+.botonesConfiguracionCuenta
+{
+
+	
+	
+}
+.coloLabel
+{
+	color:#d37d38;
+
+}
+
+#imagePerfilEliminar
+{
+
+	width:70px;
+	height:50px;
+
+}
+
+#buscarAmigosChat{
+
+	margin:0px;
+	width:100%;
+
+
+}
+
+
+
+
+/*************************************************************
+*************************************************************/
+#lapizero{
+
+
+
+
+}
+
+
+.contentTop
+{
+
+
+width: 100%;
+
+}
+
+.image-post{
+
+width: 100%;
+
+margin-bottom: 10px;
+
+}
+
+#tituloTopRank{
+
+text-align: center;
+
+
+}
+
+.contentPizarraGeneral{
+
+text-align: justify;
+width: 100%;
+
+
+}
+
+.mensajeSinPosts
+{
+
+width: 100%;
+padding:10px;
+
+}
+
+.informationPizarraGeneral
+{
+ 
+ width: 100%;
+ word-wrap:break-word;
+margin-top:30px;
+margin-bottom:30px;
+
+
+}
+
+.buttonComentariosGeneral{
+
+width: 100%;
+
+}
+
+.contentPost{
+
+max-height: 250px;
+word-wrap:break-all;
+display: inline;
+
+
+}
+
+.imageContent
+{
+
+margin-top: 10px;
+
+}
+
+.footerTextArea{
+
+	width: 100%;
+
+}
+
+.footerfooterTextAreaSubmit{
+
+width: 100%;
+max-width: 100%;
+height: 50px;
+max-height: 80px;
+
+
+}
+
+
+.comentariosGeneral{
+
+margin-bottom: 5px;
+width: 100%;
+
+padding: 5px;
+
+
+}
+
+.tdRemove{
+
+text-align: center;
+cursor:pointer;
+
+}
+
+.nomcom_response{
+
+font-size: 16px;
+color:#3498db;
+
+}
+
+.imagen_perfil_response{
+
+margin-right: 5px;
+
+}
+
+.response_contenedor_unique
+{
+
+	text-align: justify;
+	margin-top:3px;
+	margin-bottom: 30px;
+
+}
+
+.contenedorModulo{
+
+width: 100%;
+
+
+}
+
+.buttonsNews{
+
+margin-right:10px; 
+
+}
+
+#formAddNew > input
+{
+	
+margin-top: 10px;
+margin-bottom:10px;
+
+
+
+}
+
+#contentButtons{
+
+margin-top: 40px;
+
+width: 100%;
+
+}
+
+
+
+#contenedorForo
+{
+	width:900px;
+margin-left: 300px;
+
+
+
+}
+
+#contenedorForoDashboard{
+	width:900px;
+margin-left: 300px;
+
+}
+
+.headersContenedores{
+
+ background-color:#3498db ;
+ color:white;
+ padding: 10px;
+ cursor: pointer;
+ margin-bottom: 20px;
+}
+
+
+
+.subCategoria:first-child
+{
+
+padding-top: 20px;
+
+}
+
+.subCategoria
+{
+
+padding-left: 10px;
+font-size: 18px;
+
+
+}
+
+.subCategoria .tSubCat:hover
+{
+
+
+text-decoration: underline;
+cursor: pointer;
+
+}
+
+.subCategoria .tSubCat{
+float: left;
+color: #5f5f5f;
+	
+}
+.contentTemasMensajes{
+
+text-align: right;
+font-size: 11px;
+
+}
+
+
+#contenedorEducacionContinua{
+
+width:900px;
+margin-left: 300px;
+
+
+}
+
+.contenedor_curso{
+
+
+
+}
+
+@media screen and (min-width: 1300px ){
+
+
+
+	#contenedorAdministracion{
+
+margin-left: 270px;
+
+
+
+
+}
+
+
+#contenedorEducacionContinua{
+
+width:1000px;
+margin-left: 400px;
+
+	
+}
+
+}
+
+
+ @media screen and (min-width: 600px) {
+
+.contentTop{
+
+	float:right;
+	width: 45%;
+	height: 300px;
+	max-height: 400px;
+}
+
+.contentPizarraGeneral{
+
+text-align: justify;
+width: 50%;
+
+}
+
+.buttonComentariosGeneral{
+
+width: auto;
+
+}
+
+
+
+
+      	}
+
+/* dashboard */
+
+#contentDashboard
+{
+
+width: 1400px;
+height: 600px;
+margin-left: 280px;
+margin-top: 10px;
+
+
+}
+
+#contenedorAvances
+{
+width: 1400px;
+height: 600px;
+margin-left: 280px;
+margin-top: 10px;
+
+}
+
+#contenedorAvancesPerfil
+{
+width: 1400px;
+height: 600px;
+margin-left: 280px;
+margin-top: 10px;
+
+}
+
+
+
+#contentDashboardCursosNuevos{
+width: 1400px;
+height: 600px;
+margin-left: 280px;
+margin-top: 10px;
+float: left;
+
+}
+
+#contenedorSubMenuDashBoardNuevo{
+width: 700px;
+float:left;
+
+}
+
+
+#vistaGraficaCurso{
+
+width: 400px;
+
+height: 500px;
+float:left;
+}
+
+#contenedorSubMenuDashBoard
+{
+
+ width: 100%;
+
+
+}
+
+.contenedorTexto{
+
+ word-wrap:break-word;
+
+}
+
+.cursosTeacher
+{
+
+float:left;
+width: 250px;
+min-height: 450px;
+max-height: 600px;
+margin: 10px 0px 0px 10px;
+
+}
+
+.contentImageCurso{
+height:250px;
+width:240px;
+
+
+}
+
+.tituloCurso{
+
+text-decoration: underline;
+
+
+}
+
+
+.partsForms{
+
+
+margin-top:5px;
+
+
+}
+
+#nuevoCurso{
+
+width: 400px;
+
+}
+
+#barraAddCurso{
+
+width: 70%;
+
+}
+
+
+#barraAddUnidad{
+width: 70%;
+
+}
+
+#optionRamas{
+
+width: 400px;
+
+}
+
+#optionMaterias{
+
+width: 400px;
+}
+
+
+#nuevaUnidad
+{
+
+width: 400px;
+
+}
+
+#selectCursos
+{
+
+width: 400px;
+
+}
+
+.inputsWidth
+{
+
+width: 400px;
+
+}
+
+
+
+#contenido_iconos
+{
+
+	margin: auto;
+
+
+}
+
+#navbar-iconosMixtli
+{
+
+list-style: none;
+vertical-align: middle;
+margin-top: 13px;
+
+}
+
+
+
+#navbar-iconosMixtli li
+{
+
+display: inline;
+margin-left: 20px;
+margin-right:10px;
+
+
+}
+
+
+
+.submenuhover{
+
+ background-color: red;
+
+}
+.active{
+
+
+
+}
+
+.cml{
+
+	color:#ecf0f1;
+	font-size:12px;
+
+}
+

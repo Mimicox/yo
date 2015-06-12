@@ -1,0 +1,21 @@
+
+
+    <form id="form-sigup" method="post">
+				<h4>Sign Up</h4>
+				<input type="text" class="form-control" placeholder="Name" name="sName" id="sName" ng-model="sName"><br>
+				<input type="text" class="form-control" placeholder="Last Name" name="sLastName" id="sLastName" ng-model="sLastName"><br>
+				<input type="text" class="form-control" placeholder="Username or Email" name="sUsername" id="sUsername" ng-model="sUsername"><br>
+				<input type="password" class="form-control" placeholder="Password" name="sPassword" id="sPassword" ng-model="sPassword"><br>
+				<input type="password" class="form-control" placeholder="Repeat Password" name="sPasswordTwo" id="sPasswordTwo" ng-model="sPasswordTwo"><br>
+				<select class="form-control" name="sGener" id="sGener" ng-model="sGener"><option value="M">Male</option><option value="F">Female</option></select><br>
+				<button class="btn btn-info col-md-12"  ng-click="singUpProcess()">Sign up</button>
+
+			</form>
+
+			<div class="alert alert-success" role="alert" id="alert-succefull"><strong>Register succefully</strong> Now check your Email and Activate Account</div>
+		</div>	
+
+   <div class="alert alert-danger" role="alert" id="alert-failure"><strong>This user is now register</strong> Trye other user</div>
+    </div>
+
+

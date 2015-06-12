@@ -1,0 +1,37 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Application Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register all of the routes for an application.
+| It's a breeze. Simply tell Laravel the URIs it should respond to
+| and give it the controller to call when that URI is requested.
+|
+*/
+
+Route::get('/', function () {
+    return view('home');
+});
+
+Route::get('/signin', 'SingInController@index');
+Route::put('/signin/loginValidate', 'SingInController@loginValidate');
+
+//Dashboard
+Route::get('/dashboard','DashboardController@index');
+
+//perfil
+
+Route::get('/profile','ProfileController@index');
+
+//Projects
+
+Route::get('/projects','ProjectsController@index');
+Route::get('/projects/{id}','ProjectsController@project');
+
+
+
+
+Route::get('/signup', 'SignUpController@index');
+Route::put('/signup/signUpAccount', 'SignUpController@signUpAccount');

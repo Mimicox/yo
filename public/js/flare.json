@@ -1,0 +1,17 @@
+{
+ "name":"Escuelas",
+ "children":[
+ {
+  "name":"Secundaria 13",
+  "conectados": 13
+
+ },
+ {
+  "name":"Secundaria 24",
+  "conectados": 30
+
+ }
+
+ ]
+
+}

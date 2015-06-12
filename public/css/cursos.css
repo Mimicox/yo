@@ -1,0 +1,155 @@
+       .contenedor-curso
+       {
+        
+
+       }
+
+    @media (max-width: 1470px) {
+
+      .contenedores:last-child{
+
+        display:none;
+
+
+      }
+
+      .contenedores{
+
+        width:250px;
+        
+
+      }
+    
+}
+
+@media (max-width: 1370px) {
+
+      .contenedores:last-child{
+
+        display:none;
+
+      } 
+    
+}
+
+@media (max-width: 1370px) {
+
+      .contenedores:last-child{
+
+        display:none;
+
+      } 
+    
+}
+
+    .curso-php{
+
+     height:100px; background-image:url(/images/php-curso.jpg); background-size: 100% 100%;
+
+    }
+
+    .manage-listas
+    {
+
+      list-style-type: none;
+
+    }
+
+    .manage-listas li
+    {
+
+      float:left;
+      margin-right: 10px;
+
+    }
+
+    .contenedor-curso
+    {
+      width: 220px;
+      background-color: #ffffff;
+      border:1px solid #bdc3c7;
+      border-radius:2px 2px 2px 2px;
+      min-height:280px;
+      max-height:310px;
+
+     
+
+
+
+    }
+
+    .contenedor-titulo{
+
+      padding: 10px 10px 0px 10px;
+      min-height:70px;
+      max-height:80px;
+       
+
+    }
+
+    .contenedor-datos
+    {
+
+      font-size: 11px;
+      text-align: center;
+
+    }
+
+
+    .titulo-curso{
+
+      word-wrap: break-word;
+  
+
+    }
+
+    .contenedor-header-titulo span:last-child
+    {
+      float:right;
+
+
+    }
+
+    .contenedor-header-titulo span:first-child
+    {
+      
+      font-size: 16px;
+
+
+    }
+
+
+    .contenedor-header-titulo
+    {
+
+      padding:10px 5px 10px 40px;
+
+    }
+    .plus-cursos{
+      font-size: 0.8em;
+
+    }
+
+    .verTodosCursos
+    {
+
+   
+      color:#bdc3c7;
+
+    }
+      .verTodosCursos:hover
+    {
+
+    text-decoration: underline;
+
+    }
+
+    #carousel_inner
+    {
+
+      float:left;
+      overflow: hidden;
+
+    }
+
+
